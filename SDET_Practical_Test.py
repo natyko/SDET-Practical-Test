@@ -31,7 +31,7 @@ for k, v in enumerate(result['people']):
 
 # 3. Filter the dataframe by values in 1, 2, bonus: n columns
 df = pd.DataFrame(temp, columns = ['item', 'craft', 'name'])
-# print(df)
+print(df)
 
 # 4. Bonus: run python tests like unittest, pytest, nosetest
 def get_response(api_test):
